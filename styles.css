@@ -1,0 +1,36 @@
+body {
+    margin: 70px 200px 70px 200px;
+    text-align: left;
+    background-color: #fcfcfc;
+    font-size: 20px;
+}
+.devider{
+    border-bottom: 2px dotted grey;
+}
+h2 {
+    display: inline-block;
+    color: #343434;
+}
+.Important{
+color: rgb(69, 177, 141);
+}
+.material-icons{
+margin: 20px 0px;
+color: rgb(69, 177, 141);
+font-size: 50px !important;
+}
+h1{
+    font-family:"roboto";
+    color: #343434;
+}
+h2{
+    font-family: "roboto"; 
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: dimgray;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
