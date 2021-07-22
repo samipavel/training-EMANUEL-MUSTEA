@@ -1,66 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>New Blog</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=STIX+Two+Math&display=swap" rel="stylesheet">
-<style></style>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=STIX+Two+Math&display=swap"
+      rel="stylesheet"
+    />
+    <style></style>
 
-<script>
-    var numberOfStudents = 30;
-    var maxNumberOfStudentsInAClass = 30;
-    
+    <script>
+      function product(mama, tata) {
+        console.log("called");
+        return mama * tata;
+      }
 
-   // TIPURI DE DATE PRIMITIVE
-   // number
-   // string
-   // boolean
+      // var mama1 = function(){
+      //     var total = 3 + 3;
+      //     return total;
+      // }
 
-   // OPERATIONS
-   // == -compares two values; returns true or false EQUALS
-   // && -if both values are true return true; otherwise return false AND
-   // || - if one value is true return true; otherwise return false OR
-   // ! - negates N
-   // !== - not equal
-   // < less than
-   // <= less than or equal
-   // > more than
-   // >= more than or equal
+      // var mama2 = () => {
+      //     var total = 3 + 3;
+      //     return total;
+      // }
 
-   if(numberOfStudents !== maxNumberOfStudentsInAClass){
-    console.log("Numarul de studenti este diferit de numarul maxim");
-   }
-   else{
-    console.log("Numarul de studenti este egal cu numarul maxim");
-   }
-</script>
-</head>
+      console.log(product(10, 20));
+      console.log(product(5, 50));
 
-<body>
-    <div class=header>
-        <h2>Write</h2>
-    </button><span class="material-icons">search</span></button>  
-</div>
+      var numberOfStudents = 30;
+      var maxNumberOfStudentsInAClass = 30;
 
-<br>
-<div class="devider"></div>
-<div class="text">
-    <h1>How to make your company looks like the best in the world ?</h1>
+      // TIPURI DE DATE PRIMITIVE
+      // number
+      // string
+      // boolean
+
+      // OPERATIONS
+      // == -compares two values; returns true or false EQUALS
+      // && -if both values are true return true; otherwise return false AND
+      // || - if one value is true return true; otherwise return false OR
+      // ! - negates N
+      // !== - not equal
+      // < less than
+      // <= less than or equal
+      // > more than
+      // >= more than or equal
+
+      if (numberOfStudents !== maxNumberOfStudentsInAClass) {
+        console.log("Numarul de studenti este diferit de numarul maxim");
+      } else {
+        console.log("Numarul de studenti este egal cu numarul maxim");
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="header">
+      <h2>Write</h2>
+      <button onclick="product(10, 20)">
+        <span class="material-icons">search</span>
+      </button>
+    </div>
+
+    <br />
+    <div class="devider"></div>
+    <div class="text">
+      <h1>How to make your company looks like the best in the world ?</h1>
+      <p>April 17,2017/ in <span class="Important">Web Design</span></p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi maxime,
+        ratione omnis itaque architecto sed tenetur asperiores voluptas quisquam
+        libero voluptate eligendi dolorum modi veritatis? Sequi commodi mollitia
+        eaque temporibus?
+      </p>
+    </div>
+
+    <h1>
+      How to design elegant e-mail newslatter in html for wish christmas tto
+      your subscribers?
+    </h1>
     <p>April 17,2017/ in <span class="Important">Web Design</span></p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi maxime, ratione omnis itaque architecto sed tenetur asperiores voluptas quisquam libero voluptate eligendi dolorum modi veritatis? Sequi commodi mollitia eaque temporibus?</p>
-
-</div>
-
-
-<h1>How to design elegant e-mail newslatter in html for wish christmas tto your subscribers?</h1>
-<p>April 17,2017/ in <span class="Important">Web Design</span></p>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi maxime, ratione omnis itaque architecto sed tenetur asperiores voluptas quisquam libero voluptate eligendi dolorum modi veritatis? Sequi commodi mollitia eaque temporibus?</p>
-
-</body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi maxime,
+      ratione omnis itaque architecto sed tenetur asperiores voluptas quisquam
+      libero voluptate eligendi dolorum modi veritatis? Sequi commodi mollitia
+      eaque temporibus?
+    </p>
+  </body>
 </html>
